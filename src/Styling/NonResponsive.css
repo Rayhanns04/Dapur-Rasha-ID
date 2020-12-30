@@ -10,10 +10,19 @@
 }
 /* --------------- Navbar --------------- */
 .navbar {
-  position: sticky;
+  width: 100%;
+  height: 25px;
   display: flex;
-  padding-top: 39px;
-  float: inline-start;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  position: relative;
+  padding: 20px 10px;
+  position: sticky;
+}
+
+.navbar.active {
+  background-color: blue;
 }
 .logo {
   font-family: Rubik;

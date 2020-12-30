@@ -35,7 +35,7 @@
   }
   .cta-img {
     transform: scale(0.7);
-    z-index: -1;
+    /* z-index: -1; */
   }
   .rec-dark {
     position: absolute;
@@ -44,14 +44,14 @@
     margin-top: 67px;
     margin-left: 80px;
     background-color: #3f1980;
-    z-index: -1;
+    /* z-index: -1; */
   }
   .rec-light {
     width: 285px;
     height: 186px;
     margin-bottom: 60px;
     margin-right: 32px;
-    z-index: -2;
+    /* z-index: -2; */
   }
   .cta-title {
     font-size: 28px;
@@ -76,7 +76,7 @@
     margin-top: -70px;
   }
   .itl-card {
-    z-index: -1;
+    /* z-index: -1; */
   }
   .itl-img {
     width: 183.96px;
