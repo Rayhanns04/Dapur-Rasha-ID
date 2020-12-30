@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import { Logo, MapPin } from "../../constants/Icons";
+import { Logo } from "../../constants/Icons";
 import "../../Styling/NonResponsive.css";
 import { useState } from "react";
 
@@ -12,8 +12,9 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  position: sticky;
   padding: 20px 10px;
+  position: sticky;
+  top: 20px;
 `;
 
 const Left = styled.div`
