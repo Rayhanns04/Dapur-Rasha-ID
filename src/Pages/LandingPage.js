@@ -8,66 +8,56 @@ import Cta from "../components/Cta";
 import Roti from "../components/Roti";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import KuePasar from "../components/Kuepasar";
+import Minuman from "../components/Minuman";
+import Brownis from "../components/Brownis";
+import Bolu from "../components/Bolu";
+import Pizza from "../components/Pizza";
+import Burger from "../components/Burger";
+import Donut from "../components/Donut";
 
 function LandingPage() {
   return (
     <div>
       <div className="container">
-        {/* <div className="navbar">
-          <div className="left">
-            <img src={Logo} alt="Logo" />
-            <h1 className="logo">DAPUR</h1>
-            <h1 className="logo-purple">RASHA</h1>
-          </div>
-          <div className="right">
-            <a href="#roti" className="navbar-text">
-              Roti
-            </a>
-            <a href="#" className="navbar-text">
-              Donut
-            </a>
-            <a href="#" className="navbar-text">
-              Burger
-            </a>
-            <a href="#" className="navbar-text">
-              Pizza
-            </a>
-            <a href="#" className="navbar-text">
-              Bolu
-            </a>
-            <a href="#" className="navbar-text">
-              Brownis
-            </a>
-            <a href="#" className="navbar-text">
-              Minuman
-            </a>
-            <a href="#" className="navbar-text">
-              Kue Pasar
-            </a>
-            <div className="location-container">
-              <img src={MapPin} alt="MapPin" />
-              <a href="#" className="navbar-text-location">
-                Lokasi Toko
-              </a>
-            </div>
-            <a href="#" className="navbar-text">
-              Hubungi Kami
-            </a>
-          </div>
-        </div>
- */}
         <Navbar />
 
-        <div>
-          <Slider slides={Images} />
-        </div>
+        <Slider slides={Images} />
 
         <div>
           <Cta />
         </div>
 
-        <div id="roti">
+        <div id="Roti">
           <Roti />
+        </div>
+
+        <div id="Donut">
+          <Donut />
+        </div>
+
+        <div id="Burger">
+          <Burger />
+        </div>
+
+        <div id="Pizza">
+          <Pizza />
+        </div>
+
+        <div id="Bolu">
+          <Bolu />
+        </div>
+
+        <div id="Brownis">
+          <Brownis />
+        </div>
+
+        <div id="Minuman">
+          <Minuman />
+        </div>
+
+        <div id="KuePasar">
+          <KuePasar />
         </div>
       </div>
 

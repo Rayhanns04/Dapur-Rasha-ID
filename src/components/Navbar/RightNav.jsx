@@ -11,6 +11,9 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
+  ${"" /* @media screen and (max-width: 1366px) {
+    margin-right: 40px;
+  } */}
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #0d2538;
@@ -36,44 +39,44 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <a href="#roti" className="navbar-text">
+        <a href="#Roti" className="navbar-text">
           Roti
         </a>
       </li>
       <li>
-        <a href="#" className="navbar-text">
+        <a href="#Donut" className="navbar-text">
           Donut
         </a>
       </li>
       <li>
-        <a href="#" className="navbar-text">
+        <a href="#Burger" className="navbar-text">
           Burger
         </a>
       </li>
       <li>
-        <a href="#" className="navbar-text">
+        <a href="#Pizza" className="navbar-text">
           Pizza
         </a>
       </li>
       <li>
         {" "}
-        <a href="#" className="navbar-text">
+        <a href="#Bolu" className="navbar-text">
           Bolu
         </a>
       </li>
       <li>
         {" "}
-        <a href="#" className="navbar-text">
+        <a href="#Brownis" className="navbar-text">
           Brownis
         </a>
       </li>
       <li>
-        <a href="#" className="navbar-text">
+        <a href="#Minuman" className="navbar-text">
           Minuman
         </a>
       </li>
       <li>
-        <a href="#" className="navbar-text">
+        <a href="#KuePasar" className="navbar-text">
           Kue Pasar
         </a>
       </li>

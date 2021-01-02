@@ -3,18 +3,23 @@ import styled from "styled-components";
 import Burger from "./Burger";
 import { Logo } from "../../constants/Icons";
 import "../../Styling/NonResponsive.css";
+import "../../Styling/Responsive.css";
 import { useState } from "react";
 
 const Nav = styled.nav`
-  width: 100%;
+  ${"" /* setting width, top untuk responsive */}
+  ${"" /* width: 100%; */}
   height: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  padding: 20px 10px;
+  padding: 30px 10px;
   position: sticky;
-  top: 20px;
+  top: 0;
+  @media screen and (max-width: 414px) {
+    top: 20px;
+  }
 `;
 
 const Left = styled.div`
@@ -41,7 +46,7 @@ const Navbar = () => {
   return (
     <Nav className={navbarSticky ? "navbar active" : "navbar"}>
       <Left className="left">
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Logo" className="logo-icon" />
         <h1 className="logo">DAPUR</h1>
         <h1 className="logo-purple">RASHA</h1>
       </Left>
